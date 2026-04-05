@@ -266,7 +266,7 @@ process.on('SIGINT', gracefulShutdown)
 process.on('SIGTERM', gracefulShutdown)
 
 global.creds = 'creds.json'
-global.authFile = 'GataBotSession'
+global.authFile = 'PatoSession'
 global.authFileJB = 'GataJadiBot'
 global.rutaBot = join(__dirname, global.authFile)
 global.rutaJadiBot = join(__dirname, global.authFileJB)
